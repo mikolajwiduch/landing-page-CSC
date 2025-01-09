@@ -1,0 +1,61 @@
+a:hover h2 {
+    transform: scale(1.1);   
+    transition: all 0.3s ease; 
+    display: inline-block;    
+    text-align: center;       
+    
+}
+.tm-testimonial-item a:hover img {
+    transform: scale(1.06);
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.tm-testimonial-item {
+    padding-top: 10px;
+}
+blockquote {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+#gallery {
+    background-color: #222;
+}
+figure.effect-honey h2 {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: opacity 0.35s, transform 0.35s;
+    bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+figure.effect-honey h2 i {
+    opacity: 1;
+}
+.contact-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .contact-item {
+    display: inline-flex;
+    align-items: center;
+  }
+  .contact-item i {
+    margin-right: 10px;
+  }
+  @media (max-width: 768px) {
+    .contact-all {
+      flex-direction: column;
+      height: auto;
+      margin-bottom: 150px;
+    } .contact-item {
+    margin-bottom: 15px;
+  }
+  .contact-item:last-child {
+    margin-bottom: 0;
+  }
+}
