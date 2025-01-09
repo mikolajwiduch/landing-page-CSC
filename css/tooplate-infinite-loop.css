@@ -47,6 +47,7 @@ blockquote {
 .tm-section-pad-top {
   padding-top: 80px;
   padding-bottom: 40px;
+  background-color: #222;
 }
 
 .tm-content-box {
@@ -274,11 +275,14 @@ blockquote {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+  background-color: #222;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   #testimonials {
-    background-image: url(../img/cs6_2_mobile.jpg);
+    /* background-image: url(../img/cs6_2_mobile.jpg); */
+    background-image: none;
+    background-color: #222;
   }
 }
 
